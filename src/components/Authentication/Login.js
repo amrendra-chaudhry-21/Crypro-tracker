@@ -9,7 +9,6 @@ const Login = ({ handleClose }) => {
   const [password, setPassword] = useState("");
 
   const { setAlert } = CryptoState();
-
   const handleSubmit = async () => {
     if (!email || !password) {
       setAlert({
